@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger'
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
 const header = document.querySelector('.header.container');
+const upbtn = document.querySelector('.upbtn');
 
 if(new Date().getHours()>5 && new Date().getHours() < 12)
 {
@@ -36,8 +37,18 @@ document.addEventListener('scroll', () => {
 	var scroll_position = window.scrollY;
 	if (scroll_position > 250) {
 		header.style.backgroundColor = '#203354';
+		header.style.padding = '10px 0px';
 	} else {
 		header.style.backgroundColor = 'transparent';
+	}
+});
+
+document.addEventListener('scroll', () => {
+	var scroll_position = window.scrollY;
+	if (scroll_position > 700) {
+		upbtn.style.display = 'block';
+	} else {
+		upbtn.style.display = 'none';
 	}
 });
 
