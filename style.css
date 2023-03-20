@@ -626,6 +626,14 @@ p {
 	.brand h1{
 		margin-left: 2% ;
 	}
+	.sender-form-field{
+		height: fit-content !important;
+		background-color: #fff !important;
+	}
+	
+	.sender-form-field .image{
+		display: none;
+	}
 }
 
 /* Media Query For Tablet */
@@ -789,4 +797,18 @@ p {
 .upbtn-link{
 	color: #fff;
 	text-decoration: none;
+}
+.sender-form-field{
+	height: 100vh;
+	background-color: #203354;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.sender-form-field .image{
+	width: 40%;
+}
+.image img{
+	transform: scale(0.65);
+	user-select: none;
 }
