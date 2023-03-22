@@ -75,9 +75,14 @@ p {
 }
 .brand h1 {
 	font-size: 3rem;
-	
+	text-align: center;
 	text-transform: uppercase;
 	color: white;
+}
+.brand img{
+	border-radius: 5px;
+	width: 150px;
+	height: 150px;
 }
 .brand h1 span {
 	color: var(--primary);
