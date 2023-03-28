@@ -20,6 +20,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- one signal -->
+
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "92e071b3-df67-4a70-ae20-1dd9ab1fe8ce",
+        });
+      });
+    </script>
+
+    <!-- end of one signal -->
 </head>
 
 <body>
@@ -395,14 +409,5 @@
   </script>
   <!-- end of sender embeded form -->
 
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  window.OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "b12aab52-e8b4-428e-89f0-8d0b882a315e",
-    });
-  });
-</script>
-
+ 
 </html>
