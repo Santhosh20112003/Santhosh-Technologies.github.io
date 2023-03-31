@@ -456,7 +456,7 @@
   var timeline = gsap.timeline({defaults:{duration:1}});
   var timeline2 = gsap.timeline({defaults:{duration:2,delay:0.5}});
   timeline.to(".message",{y:20,ease:"",repeat:-1,yoyo:true})
-  .to("git ");
+  
   if(window.innerWidth>768){
     timeline2.set("#hero",{backgroundSize:"100% 100%",backgroundPosition:"center"})
     .to("#hero",{backgroundSize:"+=90%",backgroundPosition:"10px",repeat:-1,yoyo:true})
