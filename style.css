@@ -12,7 +12,8 @@
 }
 
 :root{
-	--primary: crimson;
+	--primary:#DC143C;
+	--secondary:#212121;
 }
 
 html {
@@ -226,7 +227,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/cover.jpeg);
+	background-image: url(https://ik.imagekit.io/vituepzjm/SANTHOSH-TECHNOLOGIES/cover.jpeg);
 	background-attachment: fixed;
 	background-size: 80% 100%;
 	background-position: top center;
@@ -326,7 +327,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url(https://ik.imagekit.io/vituepzjm/SANTHOSH-TECHNOLOGIES/img-1.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
