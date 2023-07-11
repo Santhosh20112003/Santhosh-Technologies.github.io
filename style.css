@@ -920,5 +920,9 @@ p {
 	transform: scale(0.65);
 	user-select: none;
 }
-
+#chatbase-bubble-button{
+	
+	bottom: 2rem !important;
+	right: 2rem !important;
+}
 
