@@ -3,7 +3,7 @@ self.addEventListener("install",e=>{
 	e.waitUntil(
 	  caches.open("static").then(cache=>{
 		
-		return cache.addAll(["./",'./images/Santhosh192.png']);
+		return cache.addAll(["./",'./images/Santhosh192.png',"./index.html","./style.css","./index.js",'./images/Santhosh500.png','./images/maskable.png','./images/software.png',"./app.js"]);
 	  })
 	);
   });

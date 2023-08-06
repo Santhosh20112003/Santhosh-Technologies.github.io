@@ -87,6 +87,11 @@ p {
 	border-radius: 5px;
 	width: 150px;
 	height: 150px;
+	transition: 0.3s ease;
+}
+.brand img:hover{
+	transform: scale(1.05);
+	transition: .3s ease;
 }
 .brand h1 span {
 	color: var(--primary);
@@ -448,6 +453,7 @@ p {
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
+
 
 
 /* End Projects section */
