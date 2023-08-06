@@ -2,8 +2,8 @@
 	"name": "SanTech", 
 	"short_name": "Santhosh Technologies", 
 	"start_url": ".",
-	"theme_color": "#4287f5",
-	"background_color": "#ffffff",
+	"theme_color": "#fff",
+	"background_color": "#dc143c",
 	"display": "standalone",
 	"icons":[
 	  {
