@@ -401,7 +401,7 @@ p {
 }
 #projects .project-info h1 {
 	
-	color: #1976d2;
+	color: #3e97ef;
 	font-weight: 600;font-size: 4.5rem;
 
 }
@@ -410,6 +410,8 @@ p {
 	font-size: 2rem;
 	font-weight: 500;
 	margin-top: 10px;
+	/* color: #dc143c; */
+	font-weight: bold;
 }	
 #projects .project-info p {
 	color: white;
@@ -766,6 +768,12 @@ p {
 	#services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
+		transition: .3s ease;
+	}
+
+	.service-item:hover{
+		transform: scale(1.05);
+		transition: .3s ease;
 	}
 	/* End Services Section */
 
