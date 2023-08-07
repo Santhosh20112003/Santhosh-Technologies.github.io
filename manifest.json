@@ -22,6 +22,60 @@
 		"sizes": "192x192",
 		"purpose":"any maskable"
 	  }
-	]
+	],
+	"screenshots" : [
+		{
+		  "src": "images/1.jpg",
+		  "sizes": "1280x720",
+		  "type": "image/jpg"
+		},
+		{
+		  "src": "images/2.jpg",
+		  "sizes": "1280x720",
+		  "type": "image/jpg"
+		},
+		{
+		  "src": "images/3.jpg",
+		  "sizes": "1280x720",
+		  "type": "image/jpg"
+		},
+		{
+		  "src": "images/4.jpg",
+		  "sizes": "1280x720",
+		  "type": "image/jpg"
+		},
+		{
+		  "src": "images/5.jpg",
+		  "sizes": "1280x720",
+		  "type": "image/jpg"
+		},
+		{
+		  "src": "images/6.jpg",
+		  "sizes": "1280x720",
+		  "type": "image/jpg"
+		},
+		{
+		  "src": "images/7.jpg",
+		  "sizes": "1280x720",
+		  "type": "image/jpg"
+		}
+	  ],
+	  "shortcuts" : [
+		{
+		  "name": "Projects",
+		  "url": "/#projects",
+		  "description": "Projects List"
+		},
+		{
+		  "name": "Developer's Story",
+		  "url": "/#about",
+		  "description": "About the Developer"
+		},
+		{
+		  "name": "Contact",
+		  "url": "/#form",
+		  "description": "Contact Form"
+		}
+	  ]
   
   }
