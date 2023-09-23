@@ -706,6 +706,10 @@ p {
 	.hero.container div{
 		margin-top: -150px;
 	}
+	.modal-content:hover{
+		transform: scale(1.005);
+		transition: 0.3s ease;
+	}
 
 	.logo{
 		width: 15%;
@@ -773,6 +777,12 @@ p {
 		margin-top: 25vh !important;
 
 	}
+
+	.modal-content:hover{
+		transform: scale(1.005);
+		transition: 0.3s ease;
+	}
+
 	/* Hero */
 	#hero{
 		background-size: cover;
