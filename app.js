@@ -4,6 +4,28 @@ const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a'
 const header = document.querySelector('.header.container');
 const upbtn = document.querySelector('.upbtn');
 
+var modal = document.querySelector("#myModal");
+
+// Get the close button
+var span = modal.querySelector(".close");
+
+// Open the modal after 2 seconds
+setTimeout(function() {
+  modal.style.display = "block";
+}, 2000);
+
+// Close the modal when close button is clicked
+span.addEventListener("click", function() {
+  modal.style.display = "none";
+});
+
+// Close the modal when clicking outside of the modal
+window.addEventListener("click", function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+});
+
 if(new Date().getHours()>5 && new Date().getHours() < 12)
 {
 	console.log("Working at 1")
